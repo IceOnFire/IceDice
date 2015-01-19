@@ -1,0 +1,11 @@
+.container {
+	max-width: 320px;
+}
+
+button {
+	width: 100%;
+}
+
+#result {
+	text-align: right;
+}

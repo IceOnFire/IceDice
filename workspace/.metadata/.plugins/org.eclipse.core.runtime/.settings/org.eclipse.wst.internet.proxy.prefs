@@ -1,0 +1,9 @@
+#Thu Mar 15 09:50:50 CET 2007
+hostnameText=proxy.int.sose.it
+nonProxyHostsText=localhost
+passwordText=encoded\:AQACAgUEBwYKCQoJDg0ODxQVFhMQERIXGBkSGxQVHh8wISIjJCUmNwgJCgsMDQ4PcHFyc3R1djc4OTo7PD0+Pw\=\=
+userNameText=encoded\:AQADAgQEBwcJCQsJDg8ODxITEhMUFRYTGB0eHxwdHhskISojJC0uJyghKis8LT4vIDEiIzQlNhcYGRo7HB0eH2BhAgMEBQYHCAkKCwxNTk9QUVJTVFVWVw\=\=
+eclipse.preferences.version=1
+portText=8080
+proxyCheckBox=true
+nameCheckBox=true

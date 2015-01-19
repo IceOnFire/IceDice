@@ -1,0 +1,12 @@
+package ice.dice.icedice.persistence;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
+
+public class TableParser {
+	public static Map<String,String> parseFile(File file) {
+		Map<String,String> map = new HashMap<String,String>();
+		return map;
+	}
+}

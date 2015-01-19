@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /media/persephone/documenti/IceDice
+java -jar IceDice.jar

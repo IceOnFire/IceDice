@@ -1,0 +1,5 @@
+#Fri Dec 07 13:03:02 CET 2007
+org.eclipse.update.core.proxy.enable=true
+eclipse.preferences.version=1
+org.eclipse.update.core.proxy.port=8080
+org.eclipse.update.core.proxy.host=proxy.seat.it

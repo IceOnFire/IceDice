@@ -1,0 +1,5 @@
+package ice.dice.icedice.persistence;
+
+public class TableParser {
+
+}

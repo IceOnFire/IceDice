@@ -1,0 +1,375 @@
+!SESSION 2007-04-14 13:58:08.916 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+This is a continuation of log file /media/persephone/documenti/IceDice/workspace/.metadata/.bak_0.log
+Created Time: 2007-04-14 13:58:21.152
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-04-14 13:58:21.152
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+
+!ENTRY org.eclipse.jdt.core 4 4 2007-04-14 15:06:00.182
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /media/persephone/documenti/IceDice/workspace/IceDice/bin/ice/dice/icedice/Main$Menu.class.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:60)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:327)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:609)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1005)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:796)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileBytes(IncrementalImageBuilder.java:769)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:651)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:181)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:300)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:292)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:237)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:260)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:185)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:603)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:167)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:233)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:252)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:285)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:145)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+org.eclipse.core.runtime.CoreException[271]: java.io.FileNotFoundException: /media/persephone/documenti/IceDice/workspace/IceDice/bin/ice/dice/icedice/Main$Menu.class (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:318)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:609)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1005)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:796)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileBytes(IncrementalImageBuilder.java:769)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:651)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:181)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:300)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:292)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:237)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:260)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:185)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:603)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:167)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:233)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:252)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:285)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:145)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2007-04-14 15:06:00.183
+!MESSAGE File not found: /media/persephone/documenti/IceDice/workspace/IceDice/bin/ice/dice/icedice/Main$Menu.class.
+!STACK 0
+java.io.FileNotFoundException: /media/persephone/documenti/IceDice/workspace/IceDice/bin/ice/dice/icedice/Main$Menu.class (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:318)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:609)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1005)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:796)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileBytes(IncrementalImageBuilder.java:769)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:651)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:181)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:300)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:292)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:237)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:260)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:185)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:603)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:167)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:233)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:252)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:285)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:145)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SESSION 2007-04-14 16:00:43.224 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-04-14 16:00:45.253
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-04-14 16:00:51.351
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-04-14 20:55:40.330 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-04-14 20:55:42.248
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-04-14 20:55:46.118
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-04-21 07:55:00.606 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-04-21 07:55:19.402
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-04-21 07:55:32.673
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-04-27 23:15:53.103 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-04-27 23:15:56.086
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-04-27 23:16:04.639
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-04-30 09:19:55.343 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-04-30 09:20:17.962
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-04-30 09:20:31.679
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-05-12 22:13:25.479 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-05-12 22:13:38.497
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-05-12 22:13:56.470
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-05-13 08:13:19.519 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-05-13 08:13:33.576
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-05-13 08:14:05.940
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-05-20 14:05:30.050 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-05-20 14:05:31.607
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.emf.ecore 2 0 2007-05-20 14:05:38.306
+!MESSAGE Both 'com.omondo.uml.core' and 'com.omondo.uml.std' register a package for 'editmodel.xmi'
+!SESSION 2007-09-16 19:33:37.449 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-09-16 19:33:50.925
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-09-16 19:40:03.659 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-09-16 19:40:08.182
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-09-22 16:13:53.566 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-09-22 16:13:55.310
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-09-22 19:26:03.526 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-09-22 19:26:15.380
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-09-24 09:56:51.386 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-09-24 09:57:05.618
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-10-27 22:45:40.771 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 22:45:43.180
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-10-27 22:47:59.133 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 22:48:01.712
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-10-27 22:53:59.857 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 22:54:02.606
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-10-27 22:54:23.769 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 22:54:26.307
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2007-10-27 23:00:23.433
+!MESSAGE Contributor org.eclipse.wst.rdb.server.ui.navigator.serverExplorer cannot be created.
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.643
+!MESSAGE NLS unused message: _WARN_WSI_COMPLIANCE_SOAP_PROTOCOL in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.643
+!MESSAGE NLS unused message: _ERROR_WSI_COMPLIANCE_SOAP_PROTOCOL in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.643
+!MESSAGE NLS unused message: _WARN_WSI_COMPLIANCE_RPC_ENCODING in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.643
+!MESSAGE NLS unused message: _ERROR_WSI_COMPLIANCE_RPC_ENCODING in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.643
+!MESSAGE NLS unused message: _WSI_COMPLIANCE_LINK_TEXT in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.643
+!MESSAGE NLS unused message: _UI_LABEL_UNDEFINED_ARG1 in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.644
+!MESSAGE NLS unused message: _UI_LABEL_UNDEFINED_ARG2 in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.644
+!MESSAGE NLS unused message: _UI_LABEL_OR_UNDEFINED_ARG2 in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.644
+!MESSAGE NLS unused message: _UI_LABEL_OR_UNDEFINED_ARG3 in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.644
+!MESSAGE NLS unused message: _UI_LABEL_NO_OBJECT_SPECIFIED_ARG1 in: org.eclipse.wst.wsdl.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2007-10-27 23:01:08.644
+!MESSAGE NLS unused message: _UI_LABEL_NO_PARAMETERS_SPECIFIED in: org.eclipse.wst.wsdl.ui.internal.messages
+!SESSION 2007-11-09 19:47:46.960 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -data /media/persephone/documenti/IceDice/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-11-09 19:47:48.372
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-11-09 20:42:21.771 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-11-09 20:42:56.330
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+!SESSION 2007-12-07 12:50:46.843 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-12-07 12:51:31.169
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.core.jobs 4 2 2007-12-07 12:59:00.885
+!MESSAGE An internal error occurred during: "Update Manager".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.update.internal.core.connection.HttpResponse.getInputStream(HttpResponse.java:169)
+	at org.eclipse.update.internal.core.SiteURLFactory.createSite(SiteURLFactory.java:75)
+	at org.eclipse.update.internal.core.InternalSiteManager.createSite(InternalSiteManager.java:334)
+	at org.eclipse.update.internal.core.InternalSiteManager.createSite(InternalSiteManager.java:326)
+	at org.eclipse.update.internal.core.InternalSiteManager.createSite(InternalSiteManager.java:291)
+	at org.eclipse.update.internal.core.InternalSiteManager.attemptCreateSite(InternalSiteManager.java:222)
+	at org.eclipse.update.internal.core.InternalSiteManager.getSite(InternalSiteManager.java:162)
+	at org.eclipse.update.core.SiteManager.getSite(SiteManager.java:78)
+	at org.eclipse.update.search.UpdateSearchRequest.searchOneSite(UpdateSearchRequest.java:451)
+	at org.eclipse.update.search.UpdateSearchRequest.performSearch(UpdateSearchRequest.java:322)
+	at org.eclipse.update.ui.UpdateJob.runSearchForNew(UpdateJob.java:182)
+	at org.eclipse.update.ui.UpdateJob.run(UpdateJob.java:170)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SESSION 2007-12-07 13:05:25.467 -----------------------------------------------
+eclipse.buildId=M20060921-0945
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2007-12-07 13:05:41.735
+!MESSAGE NLS missing message: fileInitializer_missingFileName in: org.eclipse.core.internal.runtime.messages

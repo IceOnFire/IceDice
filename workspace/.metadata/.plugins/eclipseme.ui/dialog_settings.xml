@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="eclipseme.ui.internal.devices.DeviceImportWizard">
+		<item key="dialogWidth" value="670"/>
+		<item key="dialogHeight" value="215"/>
+		<section name="viewerSettings">
+			<item key="columnWidth_Name" value="123"/>
+			<item key="columnWidth_Import" value="55"/>
+			<item key="columnWidth_Profile" value="142"/>
+			<item key="columnWidth_Group" value="123"/>
+			<item key="columnWidth_Configuration" value="123"/>
+		</section>
+	</section>
+	<section name="deviceManagementViewerSettings">
+		<item key="columnWidth_Name" value="123"/>
+		<item key="columnWidth_Profile" value="124"/>
+		<item key="columnWidth_Group" value="123"/>
+		<item key="columnWidth_Configuration" value="123"/>
+		<item key="columnWidth_Default" value="55"/>
+	</section>
+</section>

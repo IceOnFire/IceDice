@@ -1,0 +1,23 @@
+CO1: setGame
+Operazione: setGame(gameName)
+Riferimenti: casi d'uso: Selezione Gioco
+Pre-condizioni:		- nessuna
+Post-condizioni:	- è stata creata un'associazione corrente tra Game e IceDice
+
+CO2: setFirstOption
+Operazione: setFirstOption(value)
+Riferimenti: casi d'uso: Tiro dei Dadi
+Pre-condizioni:		- esiste un'associazione corrente tra Game e IceDice
+Post-condizioni:	- sono stati modificati gli attributi di IceDice con i parametri passati
+
+CO3: setDiceNumber
+Operazione: setDiceNumber(number)
+Riferimenti: casi d'uso: Tiro dei Dadi
+Pre-condizioni:		- nessuna
+Post-condizioni:	- sono stati modificati gli attributi di IceDice con i parametri passati
+
+CO4: rollDice
+Operazione: rollDice()
+Riferimenti: casi d'uso: Tiro dei Dadi
+Pre-condizioni:		- esiste un'associazione corrente tra Game e IceDice
+Post-condizioni:	- sono stati modificati gli attributi di IceDice

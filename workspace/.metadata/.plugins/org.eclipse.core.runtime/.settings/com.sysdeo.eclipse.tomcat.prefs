@@ -1,0 +1,6 @@
+#Sat Oct 27 22:49:03 CEST 2007
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=/conf/Catalina/localhost
+tomcatVersion=tomcatV5
+tomcatConfigFile=/conf/server.xml

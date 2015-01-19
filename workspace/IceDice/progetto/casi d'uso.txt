@@ -1,0 +1,11 @@
+Caso d'uso UC1: Selezione Gioco
+1. L'utente seleziona il gioco.
+2. Il sistema aggiorna la propria modalità di gioco.
+
+Caso d'uso UC2: Tiro dei Dadi
+1. L'utente seleziona la prima opzione.
+	1a. Vampiri: l'utente sceglie il grado di sfida.
+	1b. DnD: l'utente sceglie il tipo di dado.
+2. L'utente seleziona il numero di dadi.
+3. L'utente lancia i dadi.
+4. Il sistema mostra il risultato (vedi regole dei relativi giochi).

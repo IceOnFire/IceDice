@@ -1,0 +1,26 @@
+#Mon Sep 24 10:06:04 CEST 2007
+org.eclipse.jdt.ui.PackageExplorer_patternFilterId_*$*.class=true
+org.eclipse.jdt.ui.PackageExplorer.LibraryFilter=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+useAnnotationsPrefPage=true
+lastRecentlyUsedFilters=org.eclipse.jdt.ui.PackageExplorer.LibraryFilter,
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Monospace|10|0|GTK|1|;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter=true
+fontPropagated=true
+org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates/>
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter=true
+org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter=true
+org.eclipse.jdt.ui.formatterprofiles.version=10
+useQuickDiffPrefPage=true
+CustomFiltersActionGroup.org.eclipse.jdt.ui.PackageExplorer.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
+layout=1
+org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.awt.ItemSelectable"><rhs name\="javax.swing.JComboBox"/></lhs><lhs name\="javax.swing.event.ListDataListener"><rhs name\="javax.swing.JComboBox"/></lhs><lhs name\="java.awt.event.ActionListener"><rhs name\="javax.swing.JComboBox"/></lhs><lhs name\="javax.accessibility.Accessible"><rhs name\="javax.swing.JComboBox"/><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.util.EventListener"><rhs name\="javax.swing.JComboBox"/><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="javax.swing.JComponent"><rhs name\="javax.swing.JComboBox"/></lhs><lhs name\="javax.swing.TransferHandler$HasGetTransferHandler"><rhs name\="javax.swing.JComboBox"/><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.awt.Container"><rhs name\="javax.swing.JComboBox"/><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.awt.Component"><rhs name\="javax.swing.JComboBox"/><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.awt.image.ImageObserver"><rhs name\="javax.swing.JComboBox"/><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.awt.MenuContainer"><rhs name\="javax.swing.JComboBox"/><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="javax.swing.JComboBox"><rhs name\="javax.swing.JComboBox"/></lhs><lhs name\="ice.dice.icedice.domain.Die"><rhs name\="ice.dice.icedice.domain.Die"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.awt.GridBagConstraints"/><rhs name\="java.util.Vector"/></lhs><lhs name\="java.awt.GridBagConstraints"><rhs name\="java.awt.GridBagConstraints"/></lhs><lhs name\="java.util.Observer"><rhs name\="ice.dice.icedice.domain.DnDGame"/><rhs name\="ice.dice.icedice.domain.WoDGame"/></lhs><lhs name\="java.util.Observable"><rhs name\="ice.dice.icedice.domain.DnDGame"/><rhs name\="ice.dice.icedice.domain.WoDGame"/></lhs><lhs name\="ice.dice.icedice.domain.Game"><rhs name\="ice.dice.icedice.domain.DnDGame"/><rhs name\="ice.dice.icedice.domain.WoDGame"/></lhs><lhs name\="java.awt.event.WindowListener"><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="javax.swing.JFrame"><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="javax.swing.WindowConstants"><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="javax.swing.RootPaneContainer"><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.awt.Frame"><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.awt.Window"><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"><rhs name\="ice.dice.icedice.ui.swing.IceDiceFrame"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.Vector"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.Vector"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.Vector"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.Vector"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.Vector"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.Vector"/></lhs><lhs name\="java.util.Vector"><rhs name\="java.util.Vector"/></lhs></history>
+org.eclipse.jdt.ui.text.code_templates_migrated=true

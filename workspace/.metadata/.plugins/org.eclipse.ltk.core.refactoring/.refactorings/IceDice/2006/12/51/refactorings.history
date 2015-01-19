@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename package 'ice.dice.icedice.model' to 'ice.dice.icedice.domain'&#10;- Original element: 'IceDice/src/ice.dice.icedice.model'&#10;- Renamed element: 'IceDice/src/ice.dice.icedice.domain'&#10;- Update references to refactored element&#10;- Update fully qualified names in non-Java files&#10;- Update textual occurrences in comments and strings&#10;- Rename subpackages of the package" description="Rename package 'ice.dice.icedice.model'" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ice.dice.icedice.model" name="ice.dice.icedice.domain" qualified="true" references="true" stamp="1166691877894" textual="true" version="1.0"/>
+</session>

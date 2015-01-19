@@ -1,0 +1,11 @@
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/2458172046.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/2300097508.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/2857644443.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/3871094402.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/1798146182.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/3476110829.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/3646663792.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/1273692582.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/3911317507.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/3924059924.index
+/media/persephone/documenti/IceDice/workspace/.metadata/.plugins/org.eclipse.jdt.core/3684725107.index

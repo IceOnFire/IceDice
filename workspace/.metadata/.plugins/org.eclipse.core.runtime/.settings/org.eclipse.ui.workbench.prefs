@@ -1,0 +1,4 @@
+#Fri Dec 07 13:03:00 CET 2007
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=
+eclipse.preferences.version=1
+ENABLED_DECORATORS=org.apache.derby.ui.DerbyIsRunningDecorator\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:false,org.eclipse.pde.ui.binaryProjectDecorator\:false,org.eclipse.team.cvs.ui.decorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.tigris.subversion.subclipse.ui.decorator\:true,org.eclipse.wst.rdb.server.ui.explorer.ServerStateDecoration\:true,org.eclipse.wst.rdb.core.internal.ui.explorer.FilterNodeDecoration\:true,org.eclipse.wst.rdb.core.internal.ui.explorer.DependencyDecoration\:true,org.eclipse.wst.rdb.core.internal.ui.explorer.ColumnDecoration\:true,org.eclipse.wst.rdb.core.internal.ui.explorer.ForeignKeyDecoration\:true,org.eclipse.wst.rdb.internal.core.ui.bookmarkDecoration\:true,org.eclipse.wst.rdb.internal.core.ui.indexTriggerDecoration\:true,

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource '/IceDice/config.txt' to 'config.ini'&#10;- Original element: 'config.txt'" description="Rename resource 'config.txt'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="config.txt" name="config.ini" stamp="1169558021311" version="1.0"/>
+<refactoring comment="Rename resource '/IceDice/default.ini' to 'default.ini.backup'&#10;- Original element: 'default.ini'" description="Rename resource 'default.ini'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="default.ini" name="default.ini.backup" stamp="1169561437043" version="1.0"/>
+</session>
